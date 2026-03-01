@@ -61,9 +61,7 @@ export default function LoginPage() {
       <div className="max-w-6xl mx-auto px-4 pt-12 pb-8">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-3 mb-6">
-            <div className="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center shadow-lg shadow-blue-200">
-              <span className="text-white font-bold text-2xl">S</span>
-            </div>
+            <img src="/image.png" alt="Samvaad Logo" className="w-14 h-14 rounded-2xl shadow-lg shadow-blue-200 object-contain" />
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-3">
             Project <span className="text-blue-600">Samvaad</span>

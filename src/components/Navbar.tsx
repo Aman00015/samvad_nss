@@ -55,9 +55,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href={`/${user.role}`} className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">S</span>
-            </div>
+            <img src="/image.png" alt="Samvaad Logo" className="w-8 h-8 rounded-lg object-contain" />
             <div className="hidden sm:block">
               <h1 className="text-lg font-bold text-gray-900 leading-tight">Samvaad</h1>
               <p className="text-xs text-gray-500 -mt-1">Civic Platform</p>

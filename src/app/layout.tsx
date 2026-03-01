@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   title: "Project Samvaad – Civic Complaint Tracker",
   description:
     "Youth-Led Civic Complaint Tracking & Accountability Platform for Mumbai Metropolitan Region. File, track, and resolve civic issues transparently.",
+  icons: {
+    icon: "/image.png",
+    apple: "/image.png",
+  },
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
