@@ -13,8 +13,11 @@ export const metadata: Metadata = {
   description:
     "Youth-Led Civic Complaint Tracking & Accountability Platform for Mumbai Metropolitan Region. File, track, and resolve civic issues transparently.",
   icons: {
-    icon: "/image.png",
-    apple: "/image.png",
+    icon: [
+      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
   manifest: "/manifest.json",
   appleWebApp: {
